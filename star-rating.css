@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: darksalmon;
+
+ }
+ .ratingbox{
+    position: relative;
+    background-color: aliceblue;
+    padding: 25px 50px 35px ;
+    border-radius: 25px;
+ }
+
+ .ratingbox h1{
+    color: rgb(28, 173, 179);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+
+ .ratingbox .stars{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+     
+ }
+
+ .stars i{
+    color: #e6e6e6;
+    cursor: pointer;
+    font-size: 35px;
+    transition: color 0.2s ease;
+ }
+
+ .stars i.active{
+    color: orange;
+ }
+
+ 
